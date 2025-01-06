@@ -1,7 +1,7 @@
 # High Risk Categorisations in GDPR vs AI Act: Overlaps and Implications
 
-Date:
-Publication:
+Date: pending publication
+Publication: pending
 Authors: Tytti Rintamäki, Delaram Golpayegani, Dave Lewis, Edoardo Celeste, Harshvardhan Pandit
 
 ## Table of Contents
@@ -3733,8 +3733,6 @@ A snapshot of what the table looks like behind the link is displayed below, with
         <td>AT,CZ,DK,DE,GR (Use of AI in processing) RO,SK (public transport)</td>
     </tr>
 </table>
-
-## References
 
 ## References
 
