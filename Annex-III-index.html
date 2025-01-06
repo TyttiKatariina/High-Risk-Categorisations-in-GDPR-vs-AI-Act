@@ -1,1 +1,982 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Involvement of GDPR DPIA's and High-Risk AI systems from Annex III (Expandable explanation table)</title>
+    <style>
+        .hidden-row {
+            display: none;
+        }
+        .expandable-row:hover {
+            cursor: pointer;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    
+    <h2>GDPR DPIA's and High-Risk AI systems EU AI Act Annex III</h2>
+    
+    <p>Below you will find an interactive table that shows how personal data is involved in the high-risk AI systems listed in Annex III of the EU AI Act. By <b>DOUBLE clicking</b> on the first colomn ex. "1a. Biometrics" an explanation will appear that describes what data we found to require a DPIA either according to GDPR or according to individual member state data protection authorities.</p>
+     <p>This table was created by looking at information within the 25 high-risk descriptions (8 clauses and their subclauses) listed in Annex III, and assessed whether they involved personal data explicitly (i.e. it can be reasonably inferred from the description) or conditionally (i.e. it may be potentially involved in a particular application) to assess the applicability of GDPR to Annex III clauses. Similarly, for each of the key concepts we identified whether they are explicitly or conditionally applicable in each of the Annex III clauses. If a conditional applicability was identified, we added an identifier to distinguish the conditional clause from the main or explicit clause present in Annex III. Finally, we identified if the combination of the key concepts matched any of the DPIA required conditions identified from the analysis in Section 3. In this, we distinguished whether each condition came from the GDPR (i.e. GDPR Art.35 or EDPB) or a specific member state list - through which we determined whether the applicability of a DPIA required condition was uniform across the EU (i.e. it came from GDPR) or there was a variance (i.e. it is only present in one or more countries).</p>
+    <p>From this exercise, we found personal data was explicitly involved and hence GDPR is applicable in 23 out of the 25 Annex III clauses as seen in the following table. The only ones where GDPR is not always applicable are Annex III clause 2a and clause 8a, though GDPR may be conditionally applicable based on the involvement of personal data in a particular use-case. To distinguish such conditional applicabilities, we created additional identifiers to distinguish between each variation, for example in Annex III-2a related to critical infrastructure we identified 3 variations based on involvement of: III-2a.1 smart meters, III-2a.2 road traffic video analysis, and III-2a.3 public transport monitoring systems. Each such variation involves the conditional applicability of a concept (technology for III-2a) and allows us to match the Annex III clause to a DPIA required condition, e.g. smart meters in III-2a.1 match with DPIA required conditions from Hun gary, Poland, and Romania. We found 36 such additional use cases based on the conditional applicability of key concepts in DPIA required conditions. In sum there are 61 total (sub)clauses and use cases for which a DPIA is always required for 21 use cases, is conditionally required for 38 and is not required for 2, as seen below.</p>
 
+    
+    <table>
+        <thead>
+            <tr>
+                <th>AI Act Annex III Clause</th>
+                <th>Purpose</th>
+                <th>Produces Legal Effects</th>
+                <th>Processing Context</th>
+                <th>Special categories of personal data</th>
+                <th>AI/ Data subject</th>
+                <th>Organisation / Agent</th>
+                <th>DPIA required by GDPR</th>
+                <th>EDPB</th>
+                <th>DPIA required by member states</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="expandable-row">
+                <td>1a. Biometrics</td>
+                <td>identification of people</td>
+                <td>MAY</td>
+                <td>remote processing*</td>
+                <td>biometrics*</td>
+                <td>natural persons</td>
+                <td>-</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>AT,BE,BG,HR,CZ,DK,EE,FR,DE,GR,HU,IS,IE,LV,LI,LT,LU,MT,NL,NO,PL,PT,SK,SI,ES (Biometrics)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">Remote biometric identification AI systems that utilise special category personal data (biometrics) require conducting a DPIA by GDPR (Art. 9). The use of biometric data is also explicitly named as a criteria requiring a DPIA by 25 member state's Data Protection Authorities.</td>
+            </tr>
+            <tr class="expandable-row">
+                <td>1b. Biometrics</td>
+                <td>-</td>
+                <td>MAY</td>
+                <td>infer data*, profiling (categorisation*)</td>
+                <td>biometrics*, protected attributes or characteristics*</td>
+                <td>natural persons</td>
+                <td>-</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>AT,BE,BG,HR,CZ,DK,EE,FR,DE,GR,HU,IS,IE,LV,LI,LT,LU,MT,NL,NO,PL,PT,SK,SI,ES (Biometrics)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">AI systems used for biometric categorisation and utilises sensitive personal data are required to conduct a DPIA by GDPR. The use of biometric data is also explicitly named as a criteria requiring a DPIA by 25 member state's Data Protection Authorities. (Recital 51 mentions sensitive to be synonymous to special)</td>
+            </tr>
+            <tr class="expandable-row">
+                <td>1c. Biometrics</td>
+                <td>-</td>
+                <td>MAY</td>
+                <td>-</td>
+                <td>biometrics*</td>
+                <td>natural persons</td>
+                <td>-</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>AT,BE,BG,HR,CZ,DK,EE,FR,DE,GR,HU,IS,IE,LV,LI,LT,LU,MT,NL,NO,PL,PT,SK,SI,ES (Biometrics)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">AI systems used for emotion recognition that collect biometric data will be required to conduct a DPIA by GDPR (Art. 9). The use of biometric data is also explicitly named as a criteria requiring a DPIA by 25 member state's Data Protection Authorities.</td>
+            </tr>
+             <tr class="expandable-row">
+                <td>2a. Critical Infrastructure</td>
+                <td>Controlling safety of critical digital infrastructure/ road traffic/ supply of water/gas/heating/electricity</td>
+                <td>MAY</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>critical infrastructure operations/ management</td>
+                <td>NO</td>
+                <td>NO</td>
+                <td>AT,CZ,DK,DE,GR (Use of AI in processing)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">AI systems intended to be used as safety components do not explicitly state the use of personal data meaning that a DPIA may be required conditionally but if the systems do not utilise personal data, a DPIA will not be required by GDPR or EDPB.</td>
+            </tr>
+             <tr class="expandable-row">
+                <td>2a.1.</td>
+                <td>Controlling safety of critical digital infrastructure/ road traffic/ supply of water/gas/heating/electricity</td>
+                <td>MAY</td>
+                <td>Large-scale processing of personal data</td>
+                <td>-</td>
+                <td>-</td>
+                <td>critical infrastructure operations/ management</td>
+                <td>NO</td>
+                <td>NO</td>
+                <td>HU, PL, RO (smart meters), AT,CZ,DK,DE,GR (Use of AI in processing)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">One conditional use of AI systems intended to be used as part of the application of smart meters measuring the consumption of water, gas, heating and electricity require a DPIA to be conducted in the jurisdiction of Hungary, Poland and Romania/ by the data protection authorities in Hungary, Poland and Romania.</td>
+            </tr>
+             <tr class="expandable-row">
+                <td>2a.2.</td>
+                <td>Controlling safety of critical digital infrastructure/ road traffic/ supply of water/gas/heating/electricity</td>
+                <td>MAY</td>
+                <td>Large-scale processing of personal data</td>
+                <td>-</td>
+                <td>-</td>
+                <td>critical infrastructure operations/ management</td>
+                <td>NO</td>
+                <td>NO</td>
+                <td>AT,CY (road traffic analysis) AT,CZ,DK,DE,GR (Use of AI in processing)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">Another conditional use of AI systems that are intended to be used as part of road traffic analysis systems monitoring road traffic, require a DPIA to be conducted in the jurisdiction of Hungary, Poland and Romania/ by the data protection authorities in Austria and Cyprus.</td>
+            </tr>
+             <tr class="expandable-row">
+                <td>2a.3.</td>
+                <td>Controlling safety of critical digital infrastructure/ road traffic/ supply of water/gas/heating/electricity</td>
+                <td>MAY</td>
+                <td>Large-scale processing of personal data</td>
+                <td>-</td>
+                <td>-</td>
+                <td>critical infrastructure operations/ management</td>
+                <td>NO</td>
+                <td>NO</td>
+                <td>RO,SK (public transport) AT,CZ,DK,DE,GR (Use of AI in processing)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">The third conditional use of AI systems that are intended to be used as part of monitoring public transportation require a DPIA to be conducted in the jurisdiction of Romania and Slovakia.</td>
+            </tr>
+            <tr class="expandable-row">
+                <td>3a. Education and vocational training</td>
+                <td>determine access/admission or to assign persons</td>
+                <td>YES</td>
+                <td>(automated) decison making, profiling</td>
+                <td>-</td>
+                <td>natural persons</td>
+                <td>Educational and vocational training institutions</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>AT,CZ,DK,DE,GR (Use of AI in processing)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">AI systems intended to be used to determine access or admission or to assign natural persons to educational and vocational training institutions at all level utilise automated decision making and profiling to achieve the intended outcome which requires conducting a DPIA by GDPR (Art. 35).</td>
+            </tr>
+             <tr class="expandable-row">
+                <td>3a.1.</td>
+                <td>determine access/admission or to assign persons</td>
+                <td>YES</td>
+                <td>assessing or classifying natural persons, systematic assessment of skills/ competences/ outcomes of tests/ mental health/ development</td>
+                <td>-</td>
+                <td>natural persons</td>
+                <td>Educational and vocational training institutions</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>AT,DE,LV,ES (Assessing or classfying of people) AT,CZ,DK,DE,GR (Use of AI in processing)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">AI systems intended to be used to determine access or admission or to assign natural persons to educational and vocational training institutions involve assessing or classifying natural persons and conducting systematic assessments of the skills/ competences of individuals which are all processing activities that require conducting a DPIA by the data protection authorities of Austria, Germany, Latvia and Spain.</td>
+            </tr>
+             <tr class="expandable-row">
+                <td>3a.2.</td>
+                <td>determine access/admission or to assign persons</td>
+                <td>YES</td>
+                <td>(automated) decison making, profiling, assessing or classifying natural persons, systematic assessment of skills/ competences/ outcomes of tests/ mental health/ development</td>
+                <td>-</td>
+                <td>(students) (minors/ vulnerable persons)</td>
+                <td>Educational and vocational training institutions</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>HU, NL (student assessment) IE, IT, LT, MT, AT (Minors/ vulnerable) AT CY CZ DE ES FI FR HU IE IT LV LI LT MT NO PT RO SK SI SE (Vulnerable)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">Another relevant conditional use of AI systems used to determine access or admission or to assign to educational and vocational training institutions that utilises personal data from data subjects that are minors, will require a DPIA due to the presence of vulnerable persons data (Recital 75).</td>
+            </tr>
+             <tr class="expandable-row">
+                <td>3b. Education and vocational training</td>
+                <td>evaluating learning outcomes</td>
+                <td>NO</td>
+                <td>evaluation or scoring, systematic assessment of skills/ competences/ outcomes of tests/ mental health/ development</td>
+                <td>-</td>
+                <td>natural persons</td>
+                <td>Educational and vocational training institutions</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>IS,NO,PL (assessment) CY,DK,FI,FR,DE,GR,HU,IS,IE,IT,LV,LI,LU,NO,PL,PT,RO,SK,ES,SE(evaluation or scoring) HU,NL (assessing students) AT,CZ,DK,DE,GR (Use of AI in Processing)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">AI systems intended to be used to evaluate learning outcomes, including when those outcomes are used to steer the learning process includes evaluation or scoring processing activites, which requires a DPIA by GDPR and EDPB guidance. Member states data protection authorities have included processing activites that are involved in these systems including assessing of students (Hungary and Netherlands), assessment in general (Iceland, Norway and Poland) and evaluation or scoring of individuals (Cyprus, Denmark, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Italy, Latvia, Lithuania, Luxembourg, Norway, Poland, Portugal, Romania, Slovakia, Spain, Sweden).</td>
+            </tr>
+             <tr class="expandable-row">
+                <td>3b.1.</td>
+                <td>evaluating learning outcomes</td>
+                <td>NO</td>
+                <td>evaluation or scoring, systematic assessment of skills/ competences/ outcomes of tests/ mental health/ development</td>
+                <td>-</td>
+                <td>(students) (minors/ vulnerable persons)</td>
+                <td>Educational and vocational training institutions</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>HU, NL (student assessment) IE, IT, LT, MT, AT (Minors/ vulnerable) AT CY CZ DE ES FI FR HU IE IT LV LI LT MT NO PT RO SK SI SE (Vulnerable)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">A conditional use of AI systems intended to be used to evaluate learning outcomes, including when those outcomes are used to steer the learning process that utilises personal data from data subjects that are minors, will require a DPIA due to the presence of vulnerable persons data (Recital 75).   </td>            
+            </tr>
+             <tr class="expandable-row">
+                <td>3c. Education and vocational training</td>
+                <td>assessing appropriate level of education, determining access</td>
+                <td>MAY</td>
+                <td>(automated) decison making, profiling, assessing or classifying natural persons, systematic assessment of skills/ competences/ outcomes of tests/ mental health/ development</td>
+                <td>-</td>
+                <td>natural persons</td>
+                <td>Educational and vocational training institutions</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>AT,CZ,DK,DE,GR (Use of AI in processing)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">AI systems intended to be used for the purpose of assessing the appropriate level of education that individual will receive or will be able to access, will utilise automated decision making and profiling to achieve the intended outcome and therefore requires conducting a DPIA by GDPR (Art. 35).</td>            
+            </tr>
+             <tr class="expandable-row">
+                <td>3c.1. Education and vocational training</td>
+                <td>(automated) decison making, profiling, assessing or classifying natural persons, systematic assessment of skills/ competences/ outcomes of tests/ mental health/ development</td>
+                <td>MAY</td>
+                <td>(automated) decison making, profiling</td>
+                <td>-</td>
+                <td>(students) (minors/ vulnerable persons)</td>
+                <td>Educational and vocational training institutions</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>HU, NL (student assessment) IE, IT, LT, MT, AT (Minors/ vulnerable) AT CY CZ DE ES FI FR HU IE IT LV LI LT MT NO PT RO SK SI SE (Vulnerable)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">A conditional use of AI systems intended to be used for the purpose of assessing the appropriate level of education that individual will receive or will be able to access that utilises personal data from data subjects that are minors, will require a DPIA due to the presence of vulnerable persons data (Recital 75).</td>            
+            </tr>
+             <tr class="expandable-row">
+                <td>3d. Education and vocational training</td>
+                <td>monitoring/ detecting prohibited behaviour of students during tests</td>
+                <td>NO</td>
+                <td>monitoring, surveillence, behavioural data, monitoring or controlling data subjects, electronic monitoring of a school, Supervision of the data subject</td>
+                <td>behavioural data*, behaviour or other personal aspects of natural persons</td>
+                <td>natural persons</td>
+                <td>Educational and vocational training institutions</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>BE, AT, CZ, DE, GR, LT, ES, IS, NO, LV, NL (Behavioural data) AT, CZ, DK, DE, GR (Use of AI in processing)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">AI systems intended to be used for monitoring and detecting prohibited behaviour of students during tests in the context of/within education and vocational training institutions utilises behavioural data and includes monitoring and surveilling of students, which requires conducting a DPIA by GDPR (Recital 75) and by the data protection authorities of Belgium, Austria, Czech republic, Germany, Greece, Latvia, Spain, Iceland, Norway, Lithuania, and the Nethlerands due to the presence of behavioural data.</td>            
+            </tr>
+             <tr class="expandable-row">
+                <td>3d.1.</td>
+                <td>monitoring/ detecting prohibited behaviour of students during tests</td>
+                <td>NO</td>
+                <td>monitoring, surveillence, behavioural data, monitoring or controlling data subjects, electronic monitoring of a school, Supervision of the data subject</td>
+                <td>behavioural data*, behaviour or other personal aspects of natural persons</td>
+                <td>(students) (minors/ vulnerable persons)</td>
+                <td>Educational and vocational training institutions</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>HU, NL (student assessment) IE, IT, LT, MT, AT (Minors/ vulnerable) AT CY CZ DE ES FI FR HU IE IT LV LI LT MT NO PT RO SK SI SE (Vulnerable)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">A conditional use of AI systems intended to be used for monitoring and detecting prohibited behaviour of students during tests in the context of/within education and vocational training institutions that requires a DPIA is if the system utilises personal data from data subjects that are minors. This will require a DPIA due to the presence of vulnerable persons data (Recital 75).</td>            
+            </tr>
+              <tr class="expandable-row">
+                <td>4a. Employment, workers management and access to self-employment</td>
+                <td>recruitment, targeted job advertising</td>
+                <td>MAY</td>
+                <td>(automated) decision making, profiling, assessing or classifying natural persons, systematic assessment of skills/ competences/ outcomes of tests/, evaluation or scoring</td>
+                <td>-</td>
+                <td>natural persons (applicants/potential applicants)</td>
+                <td>Employer / recruiter</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>FR (recruitment) AT, CZ, DK, DE, GR (Use of AI in processing)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">AI systems intended to be used for recruitment or selection of natural persons, notably to place targeted job advertisements, to analyse and filter job applications, and to evaluate candidates, will require conducting a DPIA because the decisions of the system may produce legal effects on the data subjects (GDPR Art. 35), and the involvement of (automated) decision making, profiling, assessing or classifying natural persons processing activities. It is worth noting that the French Data Protection Authorities require a DPIA in this case due to the involvement of AI in recruitment.</td>            
+            </tr>
+            <tr class="expandable-row">
+                <td>4b. Employment, workers management and access to self-employment</td>
+                <td>promotion, termination, task allocation, monitoring and evaluating</td>
+                <td>YES</td>
+                <td>(automated) decision making, evaluation or scoring, monitoring of employee activities, exclusion/suspension/rupture from a contract, behavioural data, monitoring or controlling data subjects, providing services/ developing products for commercial use that involve predicting working capacity/ economic status/ health/ personal preferences/ personal interests/ trustworthiness/behaviour/ location/ route, legal effects, profiling</td>
+                <td>behavioural data*</td>
+                <td>natural persons (employee)</td>
+                <td>Employer</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>AT, CZ, DK, DE, GR (Use of AI in processing)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">AI intended to be used to make decisions affecting terms of the work related relationships, promotion and termination of work-related contractual relationships, to allocate tasks based on individual behaviour or personal traits or characteristics and to monitor and evaluate performance and behaviour of persons in such relationships, will require conducting a DPIA due to the involvement of behavioural data (GDPR Recital 75) and by the data protection authorities of Belgium, Austria, Czech republic, Germany, Greece, Latvia, Spain, Iceland, Norway, Lithuania, and the Netherlands due to the presence of behavioural data.</td>            
+            </tr>
+            <tr class="expandable-row">
+                <td>4b.1.</td>
+                <td>promotion, termination, task allocation, monitoring and evaluating</td>
+                <td>YES</td>
+                <td>monitoring of employee activities</td>
+                <td>behavioural data*</td>
+                <td>natural persons (employee)</td>
+                <td>Employer / recruiter</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>BE, HR, CZ, EE, DE, GR, HU, IS, LV, LI, LT, LU, MT, NL, NO, SK, CY, IT, SI, ES, SE, AT (monitoring of employee activities) AT,CZ,DK,DE,GR (Use of AI in processing)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">A conditional use of AI intended to be used to make decisions affecting terms of the work related relationships, promotion and termination of work-related contractual relationships, to allocate tasks based on individual behaviour or personal traits or characteristics and to monitor and evaluate performance and behaviour of persons in such relationships requires conducting a DPIA by Belgium, Croatia, Czech Republic, Estonia, Germany, Greece, Hungary, Iceland, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Netherlands, Norway, Slovakia, Cyprus, Italy, Slovenia, Spain, Sweden, Austria due to the presence of monitoring of employee behaviour.</td>            
+            </tr>
+             <tr class="expandable-row">
+                <td>5a.Access to essential private and public services and benefits</td>
+                <td>evaluate eligibility for and manage benefits and services</td>
+                <td>YES</td>
+                <td>evaluation or scoring,(Automated) Decision Making, Processing resulting in legal effects, exclusion/access to services, health data</td>
+                <td>health data</td>
+                <td>natural persons (public service applicant, public service recipient)</td>
+                <td>public authorities</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>AT, CZ, DK, DE, GR (Use of AI in processing) NL, PL (health data) CY, DK, FI, FR, DE, GR, HU, IS, IE, IT, LV, LI, LU, NO, PL, PT, RO, SK, ES, SE(evaluation or scoring) AT (monitoring of employee activities) AT, CZ, DK, DE, GR (Use of AI in processing)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">AI systems intended to be used by public authorities or on behalf of public authorities to evaluate the eligibility of natural persons for essential public assistance benefits and services, including healthcare services, as well as to grant, reduce, revoke, or reclaim such benefits and services requires a DPIA as the system utilises health data from data subjects. This will require a DPIA as health data is a special category of personal data (GDPR Art. 9). The presence of the processing activity "evaluation or scoring" to determine eligibility is another indication that a DPIA is required (Article 29 Working Party). Health data is also explicitly stated to require a DPIA by the data protection authorities of the Netherlands and Poland, and evaluation or scoring is explicitly mentioned by 20 countries; Cyprus, Denmark, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Italy, Latvia, Liechtenstein, Luxembourg, Norway, Poland, Portugal, Romania, Slovakia, Spain, Sweden.</td>            
+            </tr>
+            <tr class="expandable-row">
+                <td>5b.Access to essential private and public services and benefits</td>
+                <td>establishing or assessing/evaluating creditworthiness</td>
+                <td>YES</td>
+                <td>Profiling, Processing resulting in legal effects</td>
+                <td>-</td>
+                <td>natural persons</td>
+                <td>-</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>AT, CZ, DK, DE, GR (Use of AI in processing)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">AI systems intended to be used to evaluate the creditworthiness of natural persons or establish their credit score require conducting a DPIA as per GDPR and EDPB guidance due to the presence of processing activities such as evaluation and profiling, and the outcome of the system produces legal effects on the natural persons (creditworthiness). Six member state data protection authorities list establishing creditworthiness as a processing activity requiring a DPIA in their jurisdictions: Netherlands, Cyprus, France, Slovakia, Slovenia and Hungary.</td>            
+            </tr>
+             <tr class="expandable-row">
+                <td>5b.1. Access to essential private and public services and benefits</td>
+                <td>establishing or assessing/evaluating creditworthiness</td>
+                <td>YES</td>
+                <td>evaluation or scoring</td>
+                <td>-</td>
+                <td>natural persons</td>
+                <td>-</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>CY, DK, FI, FR, DE, GR, HU, IS, IE, IT, LV, LI, LU, NO, PL, PT, RO, SK, ES, SE(evaluation or scoring) AT, CZ, DK, DE, GR (Use of AI in processing)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">A conditional use case of AI systems intended to be used to evaluate the creditworthiness of natural persons or establish their credit score is the presence of evaluation or scoring processing activities which is advised by the EDPB to require conducting a DPIA. The processing activity of evaluation or scoring is explicitly mentioned by the data protection authorities of 20 countries; Cyprus, Denmark, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Italy, Latvia, Liechtenstein, Luxembourg, Norway, Poland, Portugal, Romania, Slovakia, Spain, Sweden. Six member state data protection authorities list establishing creditworthiness as a processing activity requiring a DPIA in their jurisdictions: Netherlands, Cyprus, France, Slovakia, Slovenia and Hungary.</td>            
+            </tr>
+             <tr class="expandable-row">
+                <td>5b.2. Access to essential private and public services and benefits</td>
+                <td>establishing or assessing/evaluating creditworthiness</td>
+                <td>YES</td>
+                <td>assessing or classifying natural persons</td>
+                <td>-</td>
+                <td>natural persons</td>
+                <td>-</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>PL, AT, HU (assessing or classifying people) AT, CZ, DK, DE, GR (Use of AI in processing)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">A conditional use case of AI systems intended to be used to evaluate the creditworthiness of natural persons or establish their credit score that will require conducting a DPIA according to member state data protection authorities is because of the presence of assessing and classifying individuals. This is a processing activity that requires the assessment by the data protection authorities of member states Poland, Austria and Hungary. Six member state data protection authorities list establishing creditworthiness as a processing activity requiring a DPIA in their jurisdictions: Netherlands, Cyprus, France, Slovakia, Slovenia and Hungary.</td>            
+            </tr>
+             <tr class="expandable-row">
+                <td>5b.3. Access to essential private and public services and benefits</td>
+                <td>establishing or assessing/evaluating creditworthiness</td>
+                <td>YES</td>
+                <td>Profiling, Processing resulting in legal effects, evaluation or scoring, financial data, assessing or classifying natural persons, credit score</td>
+                <td>-</td>
+                <td>Vulnerable persons</td>
+                <td>-</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>AT, CZ, DK, DE, GR (Use of AI in processing) AT CY CZ DE ES FI FR HU IE IT LV LI LT MT NO PT RO SK SI SE (Vulnerable)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">A conditional use of AI systems intended to be used to evaluate the creditworthiness of natural persons or establish their credit score that will require a DPIA is if the system utilises personal data from data subjects that are minors. This will require a DPIA due to the presence of vulnerable persons data (Recital 75). Six member state data protection authorities list establishing creditworthiness as a processing activity requiring a DPIA in their jurisdictions: Netherlands, Cyprus, France, Slovakia, Slovenia and Hungary.</td>            
+            </tr>
+             <tr class="expandable-row">
+                <td>5b.4. Access to essential private and public services and benefits</td>
+                <td>establishing or assessing/evaluating creditworthiness</td>
+                <td>YES</td>
+                <td>financial data</td>
+                <td>-</td>
+                <td>natural persons</td>
+                <td>-</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>AT, CZ, DK, DE, GR (Use of AI in processing)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">Another conditional use of AI systems intended to be used to evaluate the creditworthiness of natural persons or establish their credit score that will require a DPIA is if the system utilises financial data from data subjects as per the data protection authorities in Poland, Netherlands, Cyprus, Czech Republic and Estonia. Six member state data protection authorities list establishing creditworthiness as a processing activity requiring a DPIA in their jurisdictions: Netherlands, Cyprus, France, Slovakia, Slovenia and Hungary.</td>            
+            </tr>
+             <tr class="expandable-row">
+                <td>5b.5. Access to essential private and public services and benefits</td>
+                <td>establishing or assessing/evaluating creditworthiness</td>
+                <td>YES</td>
+                <td>credit score</td>
+                <td>-</td>
+                <td>natural persons</td>
+                <td>-</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>AT, CZ, DK, DE, GR (Use of AI in processing)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">A fifth conditional use of AI systems intended to be used to evaluate the creditworthiness of natural persons or establish their credit score that will require a DPIA is if the system utilises credit score data which is listed by the data protection authorities in the Netherlands, Cyprus, France, Slovakia, Slovenia and Hungary.</td>            
+            </tr>
+             <tr class="expandable-row">
+                <td>5c. Access to essential private and public services and benefits</td>
+                <td>Life and Health Insurance pricing and risk assessment</td>
+                <td>YES</td>
+                <td>evaluation or scoring, assessing or classifying natural persons, profiling</td>
+                <td>-</td>
+                <td>natural persons</td>
+                <td>-</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>AT, HU, PL (insurance purposes) AT, CZ, DK, DE, GR (Use of AI in processing)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">AI systems intended to be used for risk assessment and pricing in relation to natural persons in the case of life and health insurance will require a DPIA according to GDPR (Art. 35) due to the presence  profiling and evaluation or scoring (Article 29 Working Party).</td>            
+            </tr>
+            <tr class="expandable-row">
+                <td>5c.1.</td>
+                <td>Life and Health Insurance pricing and risk assessment</td>
+                <td>YES</td>
+                <td>evaluation or scoring, assessing or classifying natural persons, profiling, financial data</td>
+                <td>-</td>
+                <td>Vulnerable persons</td>
+                <td>-</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>AT,HU,PL (insurance purposes) AT,CZ,DK,DE,GR (Use of AI in processing) CY,DK,FI,FR,DE,GR,HU,IS,IE,IT,LV,LI,LU,NO,PL,PT,RO,SK,ES,SE(evaluation or scoring) AT CY CZ DE ES FI FR HU IE IT LV LI LT MT NO PT RO SK SI SE (Vulnerable)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">A conditional use case of AI systems intended to be used for risk assessment and pricing in relation to natural persons in the case of life and health insurance that requires a DPIA is if the system utilises personal data from data subjects that are minors. This will require a DPIA due to the presence of vulnerable persons data (Recital 75).</td>            
+            </tr>
+            <tr class="expandable-row">
+                <td>5c.2.</td>
+                <td>Life and Health Insurance pricing and risk assessment</td>
+                <td>YES</td>
+                <td>evaluation or scoring, assessing or classifying natural persons, profiling</td>
+                <td>Health data</td>
+                <td>natural persons</td>
+                <td>-</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>AT, HU, PL (insurance purposes) AT, CZ, DK, DE, GR (Use of AI in processing) NL, PL (health data) CY,DK,FI,FR,DE,GR,HU,IS,IE,IT,LV,LI,LU,NO,PL,PT,RO,SK,ES,SE(evaluation or scoring)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">Another conditional use case of AI systems intended to be used for risk assessment and pricing in relation to natural persons in the case of life and health insurance that requires a DPIA is if the system utilises health data from data subjects. This will require a DPIA as health data is a special category of personal data (GDPR Art. 9).</td>            
+            </tr>
+            <tr class="expandable-row">
+                <td>5c.3.</td>
+                <td>Life and Health Insurance pricing and risk assessment</td>
+                <td>YES</td>
+                <td>financial data</td>
+                <td>-</td>
+                <td>natural persons</td>
+                <td>-</td>
+                <td>MAY</td>
+                <td>YES</td>
+                <td>CY, CZ, EE, NL, PL (financial data)  AT, CZ, DK, DE, GR (Use of AI in processing)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">A third conditional use case of AI systems intended to be used for risk assessment and pricing in relation to natural persons in the case of life and health insurance that requires a DPIA in specific jurisdictions is if the system utilises financial data from data subjects which is a requirement of the data protection authorities in Poland, Netherlands, Cyprus, Czech Republic and Estonia.</td>            
+            </tr>
+            <tr class="expandable-row">
+                <td>5d. Access to essential private and public services and benefits</td>
+                <td>Evaluate and classify emergency calls, Dispatch or establish priority for dispatching emergency first response services</td>
+                <td>YES</td>
+                <td>(automated) decision making, exclusion/access to services</td>
+                <td>-</td>
+                <td>natural persons</td>
+                <td>emergency services (police, firefighters and medical aid, as well as of emergency healthcare patient triage systems)</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>AT,CZ,DK,DE,GR (Use of AI in processing)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">AI systems intended to evaluate and classify emergency calls by natural persons or to be used to dispatch, or to establish priority in the dispatching of emergency first response services, including by police, firefighters and medical aid, as well as of emergency healthcare patient triage systems will require conducting a DPIA due to the presence of automated decision making and evaluation or scoring in establishing priority in dispatching emergency services (Article 35 of GDPR and Article 29 Working Party).</td>            
+            </tr>
+             <tr class="expandable-row">
+                <td>5d.1. Access to essential private and public services and benefits</td>
+                <td>Evaluate and classify emergency calls, Dispatch or establish priority for dispatching emergency first response services</td>
+                <td>YES</td>
+                <td>evaluation or scoring</td>
+                <td>-</td>
+                <td>natural persons</td>
+                <td>emergency services (police, firefighters and medical aid, as well as of emergency healthcare patient triage systems)</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>AT,CZ,DK,DE,GR (Use of AI in processing)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">A conditional use case of AI systems intended to evaluate and classify emergency calls by natural persons or to be used to dispatch, or to establish priority in the dispatching of emergency first response services, including by police, firefighters and medical aid, as well as of emergency healthcare patient triage systems, that requires a DPIA is if the system's processing activities result in the exclusion or access of services, which is explicitly stated by the data protection authorities of twelve member states; Belgium, Croatia, Greece, Iceland, Italy, Latvia, Liechenstein, Norway, Poland, Slovenia, Spain, Sweden.</td>            
+            </tr>
+             <tr class="expandable-row">
+                <td>5d.2. Access to essential private and public services and benefits</td>
+                <td>Evaluate and classify emergency calls, Dispatch or establish priority for dispatching emergency first response services</td>
+                <td>YES</td>
+                <td>(automated) decision making, evaluation or scoring, exclusion/access to services</td>
+                <td>-</td>
+                <td>Vulnerable persons</td>
+                <td>emergency services (police, firefighters and medical aid, as well as of emergency healthcare patient triage systems)</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>AT,CZ,DK,DE,GR (Use of AI in processing) AT CY CZ DE ES FI FR HU IE IT LV LI LT MT NO PT RO SK SI SE (Vulnerable)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">A conditional use case of AI systems intended to evaluate and classify emergency calls by natural persons or to be used to dispatch, or to establish priority in the dispatching of emergency first response services, including by police, firefighters and medical aid, as well as of emergency healthcare patient triage systems, that requires a DPIA is if the system utilises personal data from data subjects that are minors. This will require a DPIA due to the presence of vulnerable persons data (Recital 75).</td>            
+            </tr>
+             <tr class="expandable-row">
+                <td>5d.3. Access to essential private and public services and benefits</td>
+                <td>Evaluate and classify emergency calls, Dispatch or establish priority for dispatching emergency first response services</td>
+                <td>YES</td>
+                <td>(automated) decision making, evaluation or scoring, exclusion/access to services</td>
+                <td>Health data</td>
+                <td>natural persons</td>
+                <td>emergency services (police, firefighters and medical aid, as well as of emergency healthcare patient triage systems)</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>NL, PL (health data) AT, CZ, DK, DE, GR (Use of AI in processing)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">A third conditional use case of AI systems intended to evaluate and classify emergency calls by natural persons or to be used to dispatch, or to establish priority in the dispatching of emergency first response services, including by police, firefighters and medical aid, as well as of emergency healthcare patient triage systems, that requires a DPIA is if the system utilises health data from data subjects. This will require a DPIA as health data is a special category of personal data (GDPR Art. 9).</td>            
+            </tr>
+             <tr class="expandable-row">
+                <td>6a. Law enforcement</td>
+                <td>assessing risk of becoming victims of criminal offences</td>
+                <td>YES</td>
+                <td>Profiling, assessing or classifying natural persons</td>
+                <td>-</td>
+                <td>natural persons</td>
+                <td>law enforcement authorities, law enforcement authority agents</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>AT,CZ,DK,DE,GR (Use of AI in processing) HU, LI, NL (law enforcement purposes) IS, NO, PL, AT, HU (assessing or classifying people)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">AI systems intended to be used in support of law enforcement authorities or on their behalf to assess the risk of a natural person to become a victim of criminal offences will require conducting a DPIA as it utilises profiling to achieve the intended outcome which requires conducting a DPIA by GDPR (Art. 35). A DPIA will also be required by Hungary, Liechenstein and Norway due to data related to law enforcement purposes.</td>            
+            </tr>
+            <tr class="expandable-row">
+                <td>6a.1.</td>
+                <td>assessing risk of becoming victims of criminal offences</td>
+                <td>YES</td>
+                <td>assessing or classifying</td>
+                <td>-</td>
+                <td>natural persons</td>
+                <td>law enforcement authorities, law enforcement authority agents</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>IS,NO,PL,AT,HU (assessing or classifying people) AT,CZ,DK,DE,GR (Use of AI in processing) HU,LI,NL (law enforcement purposes)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">A conditional use of AI systems intended to be used in support of law enforcement authorities or on their behalf to assess the risk of a natural person to become a victim of criminal offences that requires a DPIA is if the system assesses or classifies natural persons as these processing activities require a DPIA by the data protection authorities of Iceland, Norway, Poland, Austria and Hungary. A DPIA will also be required by Hungary, Liechenstein and Norway due to data related to law enforcement purposes.</td>            
+            </tr>
+            <tr class="expandable-row">
+                <td>6a.2.</td>
+                <td>assessing risk of becoming victims of criminal offences</td>
+                <td>YES</td>
+                <td>Profiling, assessing or classifying natural persons</td>
+                <td>-</td>
+                <td>Vulnerable persons</td>
+                <td>-</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>HU, LI, NL (law enforcement purposes) AT, CZ, DK, DE, GR (Use of AI in processing) IS, NO, PL, AT, HU (assessing or classifying people) AT CY CZ DE ES FI FR HU IE IT LV LI LT MT NO PT RO SK SI SE (Vulnerable)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">A conditional use of AI systems intended to be used in support of law enforcement authorities or on their behalf to assess the risk of a natural person to become a victim of criminal offences that requires a DPIA is if the system utilises personal data from data subjects that are minors. This will require a DPIA due to the presence of vulnerable persons data (Recital 75). A DPIA will also be required by Hungary, Liechenstein and Norway due to data related to law enforcement purposes.</td>            
+            </tr>
+            <tr class="expandable-row">
+                <td>6a.3.</td>
+                <td>assessing risk of becoming victims of criminal offences</td>
+                <td>YES</td>
+                <td>(Large scale Processing of personal data relating to criminal offences or unlawful or bad conduct (Art.35-3b))</td>
+                <td>Criminal offences</td>
+                <td>natural persons</td>
+                <td>-</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>HU, LI, NL (law enforcement purposes) AT, CZ, DK, DE, GR (Use of AI in processing) IS, NO, PL, AT, HU (assessing or classifying people) AT CY CZ EE ES FI HR LV MT NL PL RO SI (criminal offences)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">A third conditional use of AI systems intended to be used in support of law enforcement authorities or on their behalf to assess the risk of a natural person to become a victim of criminal offences that requires a DPIA is if the system uses personal pdata relating to criminal offences or unlawful or bad conduct (Art.35-3b). A DPIA will also be required by Hungary, Liechenstein and Norway due to data related to law enforcement purposes.</td>            
+            </tr>
+              <tr class="expandable-row">
+                <td>6b.Law enforcement</td>
+                <td>-</td>
+                <td>YES</td>
+                <td>-</td>
+                <td>-</td>
+                <td>natural persons</td>
+                <td>law enforcement authorities, law enforcement authority agents</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>HU, LI, NL (law enforcement purposes) AT, CZ, DK, DE, GR (Use of AI in processing)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">ADD</td>            
+            </tr>
+             <tr class="expandable-row">
+                <td>6b.1.</td>
+                <td>information verification in questioning</td>
+                <td>YES</td>
+                <td>-</td>
+                <td>health data</td>
+                <td>natural persons</td>
+                <td>-</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>NL, PL (health data) HU, LI, NL (law enforcement purposes) AT, CZ, DK, DE, GR (Use of AI in processing)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">A conditional use case of AI systems intended to be used by or on behalf of law enforcement authorities or by Union institutions, bodies and agencies in support of Law enforcement authorities as polygraphs and similar tools, that requires a DPIA is if the system utilises healthdata from data subjects. This will require a DPIA as health data is a special category of personal data (GDPR Art. 9). A DPIA will also be required by Hungary, Liechenstein and Norway due to data related to law enforcement purposes.</td>            
+            </tr>
+            <tr class="expandable-row">
+                <td>6c. Law enforcement</td>
+                <td>evaluating the reliability of evidence in investigation, evaluate reliability of evidence in criminal prosecution</td>
+                <td>YES</td>
+                <td>Large scale Processing of personal data relating to criminal offences or unlawful or bad conduct (Art.35-3b)</td>
+                <td>criminal offences</td>
+                <td>-</td>
+                <td>law enforcement authorities, law enforcement authority agents</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>HU, LI, NL (law enforcement purposes)AT, CZ, DK, DE, GR (Use of AI in processing) AT CY CZ EE ES FI HR LV MT NL PL RO SI (criminal offences)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">AI systems intended to be used by or on behalf of law enforcement authorities, or by Union institutions, agencies, offices or bodies in support of law enforcement authorities to evaluate the reliability of evidence in the course of investigation or prosecution of criminal offences, that requires a DPIA is if the system uses personal pdata relating to criminal offences or unlawful or bad conduct (Art.35-3b). A DPIA will also be required by Hungary, Liechenstein and Norway due to data related to law enforcement purposes.</td>            
+            </tr>
+            <tr class="expandable-row">
+                <td>6d. Law enforcement</td>
+                <td>assessing risk of offending, assessing risk or reoffending, assessing personality traits</td>
+                <td>YES</td>
+                <td>profiling, assessing personality traits/ characteristics, assessing past criminal behaviour (of individuals/ group), Large scale Processing of personal data relating to criminal offences or unlawful or bad conduct (Art.35-3b)</td>
+                <td>personality traits/ characteristics*</td>
+                <td>natural persons, groups</td>
+                <td>law enforcement authorities, law enforcement authority agents</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>HU, LI, NL (law enforcement purposes)AT, CZ, DK, DE, GR (Use of AI in processing)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">AI systems intended to be used for assessing the risk of a natural person of offending or re-offending not solely based on profiling of natural persons or to assess personality traits and characteristics or past criminal behaviour of natural persons or groups, will require conducting a DPIA due to the presence of large scale profiling (Art. 35 GDPR) and assessment of personality traits and characteristics. A DPIA will also be required by Hungary, Liechenstein and Norway due to data related to law enforcement purposes.</td>            
+            </tr>
+            <tr class="expandable-row">
+                <td>6d.1.</td>
+                <td>assessing risk of offending</td>
+                <td>YES</td>
+                <td>profiling, assessing personality traits/ characteristics, assessing past criminal behaviour (of individuals/ group), Large scale Processing of personal data relating to criminal offences or unlawful or bad conduct (Art.35-3b)</td>
+                <td>personality traits/ characteristics*</td>
+                <td>natural persons, groups</td>
+                <td>law enforcement authorities, law enforcement authority agents</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>HU, LI, NL (law enforcement purposes)AT, CZ, DK, DE, GR (Use of AI in processing)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">A conditional use case of AI systems intended to be used for assessing the risk of a natural person of offending or re-offending not solely based on profiling of natural persons or to assess personality traits and characteristics or past criminal behaviour of natural persons or groups, that will require a DPIA is if the assessment utilises personal data of racial or ethnic origin, political opinions, religious or philosophical beliefs (Art. 35 GDPR). A DPIA will also be required by Hungary, Liechenstein and Norway due to data related to law enforcement purposes.</td>            
+            </tr>
+            <tr class="expandable-row">
+                <td>6d.1b.</td>
+                <td>assessing past criminal behaviour</td>
+                <td>YES</td>
+                <td>Large scale Processing of personal data relating to criminal offences or unlawful or bad conduct (Art.35-3b)</td>
+                <td>criminal offences</td>
+                <td>natural persons</td>
+                <td>-</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>HU, LI, NL (law enforcement purposes)AT, CZ, DK, DE, GR (Use of AI in processing) AT CY CZ EE ES FI HR LV MT NL PL RO SI (criminal offences)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">A second conditional use case of AI systems intended to be used for assessing the risk of a natural person of offending or re-offending not solely based on profiling of natural persons or to assess personality traits and characteristics or past criminal behaviour of natural persons or groups, will require a DPIA is if the system uses personal data relating to criminal offences or unlawful or bad conduct (Art.35-3b). A DPIA will also be required by Hungary, Liechenstein and Norway due to data related to law enforcement purposes.</td>            
+            </tr>
+            <tr class="expandable-row">
+                <td>6d.2.</td>
+                <td>assessing risk of offending, assessing risk or reoffending, assessing personality traits</td>
+                <td>YES</td>
+                <td>assessing personality traits/ characteristics</td>
+                <td>behavioural data, behaviour or other personal aspects of natural persons, criminal offences</td>
+                <td>natural persons</td>
+                <td>law enforcement authorities, law enforcement authority agents</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>HU, LI, NL (law enforcement purposes)AT, CZ, DK, DE, GR (Use of AI in processing) AT CY CZ EE ES FI HR LV MT NL PL RO SI (criminal offences)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">A third conditional use case of AI systems intended to be used for assessing the risk of a natural person of offending or re-offending not solely based on profiling of natural persons or to assess personality traits and characteristics or past criminal behaviour of natural persons or groups, will require conducting a DPIA if behavioural data is utilised (GDPR Recital 75) and by the data protection authorities of Belgium, Austria, Czech republic, Germany, Greece, Latvia, Spain, Iceland, Norway, Lithuania, and the Nethlerands due to the presence of behavioural data. A DPIA will also be required by Hungary, Liechenstein and Norway due to data related to law enforcement purposes.</td>            
+            </tr>
+            <tr class="expandable-row">
+                <td>6e. Law enforcement</td>
+                <td>profiling for detection, investigation, or prosecution of criminal offences</td>
+                <td>YES</td>
+                <td>profiling, Large scale Processing of personal data relating to criminal offences or unlawful or bad conduct (Art.35-3b)</td>
+                <td>criminal offences</td>
+                <td>natural persons</td>
+                <td>law enforcement authorities, law enforcement authority agents</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>HU, LI, NL (law enforcement purposes)AT, CZ, DK, DE, GR (Use of AI in processing) AT CY CZ EE ES FI HR LV MT NL PL RO SI (criminal offences)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">AI systems intended to be used  for profiling of natural persons in the course of detection, investigation or prosecution of criminal offences will require a DPIA as the system uses personal pdata relating to criminal offences or unlawful or bad conduct (Art.35-3b). A DPIA will also be required by Hungary, Liechenstein and Norway due to data related to law enforcement purposes.</td>            
+            </tr>
+            <tr class="expandable-row">
+                <td>7a. Migration, asylum and border control management</td>
+                <td>information verification in questioning</td>
+                <td>MAY</td>
+                <td>-</td>
+                <td>-</td>
+                <td>natural persons</td>
+                <td>public authorities</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>SE, AT, CY, IE, IT, LV, MT, SI (Asylum seekers) AT, CZ, DK, DE, GR (Use of AI in processing)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">ADD</td>            
+            </tr>
+            <tr class="expandable-row">
+                <td>7a.1.</td>
+                <td>information verification in questioning</td>
+                <td>MAY</td>
+                <td>-</td>
+                <td>health data</td>
+                <td>natural persons</td>
+                <td>public authorities</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>NL,PL (health data) SE, AT, CY, IE, IT,LV, MT,SI (Asylum seekers) AT, CZ, DK, DE, GR (Use of AI in processing)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">A conditional use case of AI systems intended to be used by competent public authorities as polygraphs and similar tools that requires a DPIA is if the system utilises health data from data subjects. This will require a DPIA as health data is a special category of personal data (GDPR Art. 9). A DPIA will also be required by Sweden, Austria, Cyprus, Ireland, Italy, Latvia, Malta and Slovenia. E, AT, CY, IE, IT LV, MT SI due to data from asylum seekers.</td>            
+            </tr>
+            <tr class="expandable-row">
+                <td>7b. Migration, asylum and border control management</td>
+                <td>assessing risk, security risk, risk of irregular migration, health risk</td>
+                <td>YES</td>
+                <td>assessing or classifying natural persons, profiling</td>
+                <td>-</td>
+                <td>natural persons</td>
+                <td>competent public authorities, public authority agent, or by Union agencies, offices or bodies</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>AT, HU, PL, NL, IS, NO (assessing or classifying people) SE, AT, CY, IE, IT, LV, MT, SI (Asylum seekers)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">AI systems intended to be used to assess a risk, including a security risk, a risk of irregular migration, or a health risk, posed by a natural person who intends to enter or has entered into the territory of a Member State, will require a DPIA due to the presence of assessing or classifying natural persons and profiling (Art. 35) and by Austria, Hungary, Poland, Netherlands, Iceland and Norway because of the processing activity "assessment or classification of persons". A DPIA will also be required by Sweden, Austria, Cyprus, Ireland, Italy, Latvia, Malta and Slovenia. E, AT, CY, IE, IT LV, MT SI due to data from asylum seekers.</td>            
+            </tr>
+            <tr class="expandable-row">
+                <td>7b.1.</td>
+                <td>Health risk</td>
+                <td>MAY</td>
+                <td>assessing or classifying natural persons, profiling</td>
+                <td>health data</td>
+                <td>natural persons</td>
+                <td>competent public authorities, public authority agent, or by Union agencies, offices or bodies</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>NL, PL (health data) AT, HU, PL, NL, IS, NO (assessing or classifying people) SE, AT, CY, IE, IT, LV, MT,SI (Asylum seekers)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">A conditional use case of AI systems intended to be used to assess a risk, including a security risk, a risk of irregular migration, or a health risk, posed by a natural person who intends to enter or has entered into the territory of a Member State that requires a DPIA is if the system utilises healthdata from data subjects. This will require a DPIA as health data is a special category of personal data (GDPR Art. 9). A DPIA will also be required by Sweden, Austria, Cyprus, Ireland, Italy, Latvia, Malta and Slovenia. E, AT, CY, IE, IT LV, MT SI due to data from asylum seekers.</td>            
+            </tr>
+            <tr class="expandable-row">
+                <td>7c. Migration, asylum and border control management</td>
+                <td>examining asylum applications, visa and residence permits</td>
+                <td>YES</td>
+                <td>Evaluation or Scoring, ((Automated) Decision Making), Profiling, Processing resulting in Legal Effects, assessing or classifying natural persons</td>
+                <td>-</td>
+                <td>natural persons</td>
+                <td>competent public authorities, public authority agent  or by Union agencies, offices or bodies</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>SE, AT, CY, IE, IT, LV, MT, SI (Asylum seekers) AT, CZ, DK, DE, GR (Use of AI in processing) CY, DK, FI, FR, DE, GR, HU, IS, IE, IT, LV, LI, LU, NO, PL, PT, RO, SK, ES, SE(evaluation or scoring)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">AI systems intended to be used to assist competent public authorities for the examination of applications for asylum, visa and residence permits and associated complaints with regard to the eligibility of the natural persons applying for a status, including related assessment of the reliability of evidence, will require a DPIA  due to the presence of Automated Decision Making, Profiling, assessing or classifying natural persons and the decisions will produce legal effects (Art. 35). The processing activity of evaluation or scoring is explictly mentioned by the data protection authorities of 20 countries; Cyprus, Denmark, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Italy, Latvia, Liechtenstein, Luxembourg, Norway, Poland, Portugal, Romania, Slovakia, Spain, Sweden. A DPIA will also be required by Sweden, Austria, Cyprus, Ireland, Italy, Latvia, Malta and Slovenia. E, AT, CY, IE, IT LV, MT SI due to data from asylum seekers.</td>            
+            </tr>
+            <tr class="expandable-row">
+                <td>7c.1.</td>
+                <td>examining complaints related to asylum applications, visa and residence permits</td>
+                <td>YES</td>
+                <td>-</td>
+                <td>-</td>
+                <td>natural persons</td>
+                <td>competent public authorities, public authority agent  or by Union agencies, offices or bodies</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>SE, AT, CY, IE, IT, LV, MT, SI (Asylum seekers) AT, CZ, DK, DE, GR (Use of AI in processing)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">AI systems intended to be used to assist competent public authorities for the examination of applications for asylum, visa and residence permits and associated complaints with regard to the eligibility of the natural persons applying for a status, including related assessment of the reliability of evidence, will require a DPIA  due to the presence of Automated Decision Making, Profiling, assessing or classifying natural persons and the decisions will produce legal effects (Art. 35). A DPIA will also be required by Sweden, Austria, Cyprus, Ireland, Italy, Latvia, Malta and Slovenia. E, AT, CY, IE, IT LV, MT SI due to data from asylum seekers.</td>            
+            </tr>
+            <tr class="expandable-row">
+                <td>7c.2.</td>
+                <td>assessing reliability of evidence</td>
+                <td>MAY</td>
+                <td>-</td>
+                <td>-</td>
+                <td>natural persons</td>
+                <td>competent public authorities, public authority agent  or by Union agencies, offices or bodies</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>SE, AT, CY, IE, IT, LV, MT, SI (Asylum seekers) AT, CZ, DK, DE, GR (Use of AI in processing)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">AI systems intended to be used to assist competent public authorities for the examination of applications for asylum, visa and residence permits and associated complaints with regard to the eligibility of the natural persons applying for a status, including related assessment of the reliability of evidence, will require a DPIA  due to the presence of Automated Decision Making, Profiling, assessing or classifying natural persons and the decisions will produce legal effects (Art. 35). A DPIA will also be required by Sweden, Austria, Cyprus, Ireland, Italy, Latvia, Malta and Slovenia. E, AT, CY, IE, IT LV, MT SI due to data from asylum seekers.</td>            
+            </tr>
+            <tr class="expandable-row">
+                <td>7c.3.</td>
+                <td>examining asylum applications, visa and residence permits</td>
+                <td>YES</td>
+                <td>-</td>
+                <td>health data e.g. when someone applies for a medical treatment visa, sensitive data e.g. sexual orientation for LGBTQ+ asylum seekers or political opinion for those seeking protection might be processed</td>
+                <td>natural persons</td>
+                <td>competent public authorities, public authority agent  or by Union agencies, offices or bodies</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>SE, AT, CY, IE, IT, LV, MT, SI (Asylum seekers) AT, CZ, DK, DE, GR (Use of AI in processing)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">A conditional use case of AI systems intended to be used to assist competent public authorities for the examination of applications for asylum, visa and residence permits and associated complaints with regard to the eligibility of the natural persons applying for a status, including related assessment of the reliability of evidence, that requires a DPIA is if the system utilises healthdata from data subjects. This will require a DPIA as health data is a special category of personal data (GDPR Art. 9). A DPIA will also be required by Sweden, Austria, Cyprus, Ireland, Italy, Latvia, Malta and Slovenia. E, AT, CY, IE, IT LV, MT SI due to data from asylum seekers.</td>            
+            </tr>
+            <tr class="expandable-row">
+                <td>7d. Law enforcement</td>
+                <td>detecting, recognising, or identifying natural persons information verification in questioning</td>
+                <td>YES</td>
+                <td>profiling</td>
+                <td>-</td>
+                <td>natural persons</td>
+                <td>competent public authorities, public authority agent, including Union agencies, offices or bodies, in the context of migration, asylum and border control management</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>SE, AT, CY, IE, IT, LV, MT, SI (Asylum seekers) AT, CZ, DK, DE, GR (Use of AI in processing)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">AI systems intended to be used for the purpose of detecting, recognising or identifying natural persons with the exception of verification of travel documents, will require conducting a DPIA due to the presence of detecting, recognising, or identifying natural persons (Art. 35).  A DPIA will also be required by Sweden, Austria, Cyprus, Ireland, Italy, Latvia, Malta and Slovenia. E, AT, CY, IE, IT LV, MT SI due to data from asylum seekers.</td>            
+            </tr>
+            <tr class="expandable-row">
+                <td>7d.1.</td>
+                <td>detecting, recognising, or identifying natural persons </td>
+                <td>YES</td>
+                <td>profiling</td>
+                <td>Biometric data</td>
+                <td>natural persons</td>
+                <td>competent public authorities, public authority agent, including Union agencies, offices or bodies, in the context of migration, asylum and border control management</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>SE, AT, CY, IE, IT, LV, MT, SI (Asylum seekers) AT, CZ, DK, DE, GR (Use of AI in processing) AT, BE, BG, HR, CZ, DK, EE, FR, DE, GR, HU, IS, IE, LV, LI, LT, LU, MT, NL, NO, PL, PT, SK, SI, ES (Biometrics)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">A conditional use case of AI systems intended to be used for the purpose of detecting, recognising or identifying natural persons with the exception of verification of travel documents will require a DPIA if the system utilises biometric data to achieve its purpose. Biometric data is a special category of personal data requiring a DPIA as per GDPR (Art. 9). A DPIA will also be required by Sweden, Austria, Cyprus, Ireland, Italy, Latvia, Malta and Slovenia. E, AT, CY, IE, IT LV, MT SI due to data from asylum seekers.</td>            
+            </tr>
+            <tr class="expandable-row">
+                <td>8a. Administration of justice and democratic processes</td>
+                <td>researching and interpreting facts and the law; applying the law to facts; applying facts for dispute resolution</td>
+                <td>YES</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>judicial authority, judicial authority agent</td>
+                <td>NO</td>
+                <td>NO</td>
+                <td>AT, CZ, DK, DE, GR (Use of AI in processing)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">AI systems intended to be used by a judicial authority or on their behalf to assist a judicial authority in researching and interpreting facts and the law and in applying the law to a concrete set of facts or used in a similar way in alternative dispute resolution, will require a DPIA due to processing producing legal effects (Art. 35).</td>            
+            </tr>
+            <tr class="expandable-row">
+                <td>8a.1.</td>
+                <td>researching and interpreting facts and the law; applying the law to facts; applying facts for dispute resolution</td>
+                <td>YES</td>
+                <td>Evaluation or Scoring, Profiling, Processing resulting in Legal Effects, automated decision making</td>
+                <td>-</td>
+                <td>natural persons</td>
+                <td>judicial authority, judicial authority agent</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>AT, CZ, DK, DE, GR (Use of AI in processing) CY, DK, FI, FR, DE, GR, HU, IS, IE, IT, LV, LI, LU, NO, PL, PT, RO, SK, ES, SE(evaluation or scoring)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">A conditional use case of AI systems intended to be used by a judicial authority or on their behalf to assist a judicial authority in researching and interpreting facts and the law and in applying the law to a concrete set of facts or used in a similar way in alternative dispute resolution, that will require a DPIA is if processing involves evaluation or scoring (Article 29 Working Party). Evaluation or scoring is also explictly mentioned by the data protection authorities of 20 countries; Cyprus, Denmark, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Italy, Latvia, Liechtenstein, Luxembourg, Norway, Poland, Portugal, Romania, Slovakia, Spain, Sweden.</td>            
+            </tr>
+            <tr class="expandable-row">
+                <td>8a.2.</td>
+                <td>researching and interpreting facts and the law; applying the law to facts; applying facts for dispute resolution</td>
+                <td>YES</td>
+                <td>criminal offences</td>
+                <td>criminal offences</td>
+                <td>natural persons</td>
+                <td>judicial authority, judicial authority agent</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>AT, CZ, DK, DE, GR (Use of AI in processing) AT CY CZ EE ES FI HR LV MT NL PL RO SI (criminal offences)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">A second conditional use case of AI systems intended to be used by a judicial authority or on their behalf to assist a judicial authority in researching and interpreting facts and the law and in applying the law to a concrete set of facts or used in a similar way in alternative dispute resolution, that wil require a DPIA is if the system uses personal data relating to criminal offences or unlawful or bad conduct (Art.35-3b)</td>            
+            </tr>
+            <tr class="expandable-row">
+                <td>8b. Administration of justice and democratic processes</td>
+                <td>influencing the outcome of an election or referendum; influencing voting behaviour of natural persons in elections of referenda</td>
+                <td>YES</td>
+                <td>-</td>
+                <td>behavioural data</td>
+                <td>natural persons</td>
+                <td>judicial authority, judicial authority agent</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>PL (Processing by public authorities or private parties of personal data relating to party affiliation and/or electoral preferences)</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">AI systems intended to be used for influencing the outcome of an election or referendum or the voting behaviour of natural persons in the exercise of their vote in elections or referenda will require conducting will a DPIA due to behavioural data being utilised (GDPR Recital 75) and is also required by the data protection authorities of Belgium, Austria, Czech republic, Germany, Greece, Latvia, Spain, Iceland, Norway, Lithuania, and the Nethlerands due to the presence of behavioural data.</td>            
+            </tr>
+            <tr class="expandable-row">
+                <td>8b.1.</td>
+                <td>influencing the outcome of an election or referendum; influencing voting behaviour of natural persons in elections of referenda</td>
+                <td>YES</td>
+                <td>-</td>
+                <td>political opinions</td>
+                <td>natural persons</td>
+                <td>judicial authority, judicial authority agent</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>political opinions: PL (Processing by public authorities or private parties of personal data relating to party affiliation and/or electoral preferences) RO, CY, CZ, FI, IT, LV. influence behaviour: BE, NL</td>
+            </tr>
+            <tr class="hidden-row">
+                <td colspan="10">A conditional use case of AI systems intended to be used for influencing the outcome of an election or referendum or the voting behaviour of natural persons in the exercise of their vote in elections or referenda, that will require a DPIA is if the assessment utilises personal data of political opinions (Recital 75).</td>            
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        document.querySelectorAll('.expandable-row').forEach(row => {
+            row.addEventListener('click', () => {
+                let nextRow = row.nextElementSibling;
+                if (nextRow && nextRow.classList.contains('hidden-row')) {
+                    nextRow.style.display = nextRow.style.display === 'none' ? 'table-row' : 'none';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
