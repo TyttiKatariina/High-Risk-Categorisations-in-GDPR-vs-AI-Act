@@ -3625,14 +3625,15 @@ From this exercise, we found personal data was explicitly involved and hence GDP
 
 ## Involvement of GDPR DPIA's and High-Risk AI systems from Annex III (Expandable explanation table)
 
-The table described above which shows how applicable GDPR is to the various AI systems listed in Annex three can be viewed [here](https://TyttiRintamaki.github.io/AnnexIIItable.html). It is an interactive table that by clicking on the first colomn ex. "1a. Biometrics" an explanation will appear that describes what data we found to require a DPIA either according to GDPR or according to individual member state data protection authorities. 
+The table described above which shows how applicable GDPR is to the various AI systems listed in Annex three can be viewed [here]([https://TyttiRintamaki.github.io/AnnexIIItable.html](https://tyttikatariina.github.io/High-Risk-Categorisations-in-GDPR-vs-AI-Act/Annex-III-index.html)). It is an interactive table that by clicking on the first colomn ex. "1a. Biometrics" an explanation will appear that describes what data we found to require a DPIA either according to GDPR or according to individual member state data protection authorities. 
 
 A snapshot of what the table looks like behind the link is displayed below, without the interactive explanations. 
 
 
 ## AI Act Annex III
 
-<div> <h2> Snipit of table describing the applicability of GDPR's DPIA on High-Risk Annex III <h2/>
+<div> 
+   <h2> Snipit of table describing the applicability of GDPR's DPIA on High-Risk Annex III <h2/>
 </div>   
 <table>
     <tr>
@@ -3734,58 +3735,61 @@ A snapshot of what the table looks like behind the link is displayed below, with
 </table>
 
 ## References
-- [1] Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) (Text with EEA relevance),’’ Apr. 2016.
-- [2] ‘‘European Parliament legislative resolution of 13 March 2024 on the proposal for a regulation of the European Parliament and of the Council on laying down harmonised rules on Artificial Intelligence (Artificial Intelli- gence Act) and amending certain Union Legislative Acts (COM(2021)0206 – C9-0146/2021 – 2021/0106(COD),’’ Mar. 2024.
-- [3] E. Drouard, O. Kurochkina, R. Schlich, and D. Ozturk, ‘‘The Interplay between the AI Act and the GDPR:,’’ Journal of AI Law and Regulation, vol. 1, no. 2, pp. 164–176, 2024.
-- [4] M. Grafenstein, ‘‘Reconciling Conflicting Interests in Data through Data Governance. An Analytical Framework (and a Brief Discussion of the Data Governance Act Draft, the Data Act Draft, the AI Regulation Draft, as well as the GDPR),’’ SSRN Electronic Journal, 2022.
-- [5] K. Demetzou, ‘‘GDPR and the Concept of Risk: The Role of Risk, the Scope of Risk and the Technology Involved,’’ in Privacy and Identity Management. Fairness, Accountability, and Transparency in the Age of Big Data, E. Kosta, J. Pierson, D. Slamanig, S. Fischer-Hübner, and S. Krenn, Eds. Cham: Springer International Publishing, 2019, vol. 547, pp. 137– 154.
-- [6] J. Schuett, ‘‘Risk Management in the Artificial Intelligence Act,’’ European Journal of Risk Regulation, pp. 1–19, Feb. 2023.
-- [7] S. Barezzani, ‘‘Data Protection Impact Assessment (DPIA),’’ in Encyclopedia of Cryptography, Security and Privacy, S. Jajodia, P. Samarati, and M. Yung, Eds. Berlin, Heidelberg: Springer Berlin Heidelberg, 2024, pp. 1–3.
-- [8] ‘‘Guidelines on Data Protection Impact Assessment (DPIA) (wp248rev.01),’’ Oct. 2017.
-- [9] P. Ryan, R. Brennan, and H. J. Pandit, ‘‘DPCat: Specification for an Interoperable and Machine-Readable Data Processing Catalogue Based on GDPR,’’ Information, vol. 13, no. 5, p. 244, May 2022.
-- [10] CNIL, ‘‘CNIL Privacy Impact Assessment,’’ 2024.
-- [11] 14:00-17:00, ‘‘ISO/IEC 29134:2023,’’ https://www.iso.org/standard/86012.html, 2023.
-- [12] D. Golpayegani, H. J. Pandit, and D. Lewis, ‘‘To Be High-Risk, or Not To Be—Semantic Specifications and Implications of the AI Act’s High-Risk AI Applications and Harmonised Standards,’’ in 2023 ACM Conference on Fairness, Accountability, and Transparency. Chicago IL USA: ACM, Jun. 2023, pp. 905–915.
-- [13] H. J. Pandit, ‘‘A Semantic Specification for Data Protection Impact Assess- ments (DPIA),’’ Jun. 2022.
-- [14] A. Mantelero, ‘‘The Fundamental Rights Impact Assessment (FRIA) in the AI Act: Roots, legal obligations and key elements for a model template,’’ Computer Law & Security Review, vol. 54, p. 106020, Sep. 2024.
-- [15] A. Calvi and D. Kotzinos, ‘‘Enhancing AI fairness through impact assessment in the European Union: A legal and computer science perspective,’’ in 2023 ACM Conference on Fairness, Accountability, and Transparency. Chicago IL USA: ACM, Jun. 2023, pp. 1229–1245.
-- [16] ‘‘CNIL AI how to sheets,’’ 2024.
-- [17] J. Gerards, M. T. Schaefer, A. Vankan, and I. Muis, ‘‘Fundamental Rights and Algorithms Impact Assessment. 1–99.’’ 2022.
-- [18] A. De Croo and P. De Backer, ‘‘AI 4 Belgium,’’ 2024.
-- [19] AIPD, ‘‘AIPD guides (data protection impact assessment).’’
-- [20] ‘‘Austria processing requiring DPIA,’’ 2024.
-- [21] ‘‘Belgian DPIA guidelines: Adoption de la liste des catégories de traitement devant faire l’objet d’une analyse d’impact relative à la protection des données conformément à l’article 35.4 du Règlement Général sur la Protection des données (SECR-AR-2019-001),’’ Jan. 2019.
-- [22] ‘‘Croatia processing requiring DPIA,’’ 2024.
-- [23] ‘‘Cyprus processing requiring DPIA,’’ 2024.
-- [24] ‘‘Czech DPIA guide,’’ 2024.
-- [25] ‘‘Denmark DPIA Guides,’’ 2024.
-- [26] ‘‘Estonia DPIA guide,’’ 2024.
-- [27] ‘‘Finland DPIA guides (website),’’ 2024.
-- [28] ‘‘France DPIA required,’’ 2024.
-- [29] ‘‘French DPIA guidelines Liste des types d’opérations de traitement pour lesquelles une analyse d’impact relative à la protection des données est requise,’’ 2024.
-- [30] ‘‘German DPIA guidelines List of processing activities for which a DPIA is to be carried out,’’ Oct. 2018.
-- [31] ‘‘Greece processing requiring DPIA,’’ 2024.
-- [32] ‘‘Hungary processing requiring DPIA,’’ 2024.
-- [33] ‘‘Iceland processing requiring DPIA,’’ 2024.
-- [34] ‘‘Irish DPA list of processing requiring DPIA,’’ 2024.
-- [35] ‘‘Italian DPIA guidelines,’’ 2016.
-- [36] ‘‘Latvia DPIA guide,’’ 2024.
-- [37] ‘‘Lithuania processing requiring DPIA,’’ 2024.
-- [38] ‘‘Liechtenstein DPIA processing required,’’ 2024.
-- [39] L. DPA, ‘‘Luxembourg DPIA required list,’’ Tech. Rep., 2024.
-- [40] ‘‘Malta processing requiring DPIA,’’ 2024.
-- [41] ‘‘Netherlands DPIA guide,’’ 2024.
-- [42] ‘‘Norweigan DPIA guide,’’ 2024.
-- [43] ‘‘Poland DPIA guide,’’ 2024.
-- [44] ‘‘Poland DPIA instructions,’’ 2024.
-- [45] ‘‘Poland processing requiring DPIA,’’ 2024.
-- [46] ‘‘Portugal processing requiring DPIA,’’ 2024.
-- [47] ‘‘Romania processing requiring DPIA,’’ 2024.
-- [48] ‘‘Slovakia processing requiring DPIA,’’ 2024.
-- [49] ‘‘Slovenia DPIA template,’’ 2024.
-- [50] AIPD, ‘‘Spain DPIA required,’’ Tech. Rep., 2024.
-- [51] ‘‘Sweden processing requiring DPIA,’’ 2024.
-- [52] E. Commission, ‘‘eTransaltion,’’ 2024.
-- [53] A. Mantelero, ‘‘The Ai Act’s Fundamental Rights Impact Assessment,’’2024.
-- [54] J. Naves and P. Rijcken, ‘‘EU model contractual AI clauses to pilot in procurements of AI,’’ Sep. 2023.
-- [55] M. Castelli and L. C. Moreau, Ph.D., ‘‘The Cycle of Trust and Responsibil- ity in Outsourced AI,’’ in Proceedings of the 2nd Workshop on Trustworthy Natural Language Processing (TrustNLP 2022). Seattle, U.S.A.: Associ- ation for Computational Linguistics, 2022, pp. 43–48. VOLUME 11, 2023 19
+
+## References
+
+1. Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) (Text with EEA relevance),’’ Apr. 2016.
+2. ‘‘European Parliament legislative resolution of 13 March 2024 on the proposal for a regulation of the European Parliament and of the Council on laying down harmonised rules on Artificial Intelligence (Artificial Intelligence Act) and amending certain Union Legislative Acts (COM(2021)0206 – C9-0146/2021 – 2021/0106(COD),’’ Mar. 2024.
+3. E. Drouard, O. Kurochkina, R. Schlich, and D. Ozturk, ‘‘The Interplay between the AI Act and the GDPR:,’’ Journal of AI Law and Regulation, vol. 1, no. 2, pp. 164–176, 2024.
+4. M. Grafenstein, ‘‘Reconciling Conflicting Interests in Data through Data Governance. An Analytical Framework (and a Brief Discussion of the Data Governance Act Draft, the Data Act Draft, the AI Regulation Draft, as well as the GDPR),’’ SSRN Electronic Journal, 2022.
+5. K. Demetzou, ‘‘GDPR and the Concept of Risk: The Role of Risk, the Scope of Risk and the Technology Involved,’’ in Privacy and Identity Management. Fairness, Accountability, and Transparency in the Age of Big Data, E. Kosta, J. Pierson, D. Slamanig, S. Fischer-Hübner, and S. Krenn, Eds. Cham: Springer International Publishing, 2019, vol. 547, pp. 137–154.
+6. J. Schuett, ‘‘Risk Management in the Artificial Intelligence Act,’’ European Journal of Risk Regulation, pp. 1–19, Feb. 2023.
+7. S. Barezzani, ‘‘Data Protection Impact Assessment (DPIA),’’ in Encyclopedia of Cryptography, Security and Privacy, S. Jajodia, P. Samarati, and M. Yung, Eds. Berlin, Heidelberg: Springer Berlin Heidelberg, 2024, pp. 1–3.
+8. ‘‘Guidelines on Data Protection Impact Assessment (DPIA) (wp248rev.01),’’ Oct. 2017.
+9. P. Ryan, R. Brennan, and H. J. Pandit, ‘‘DPCat: Specification for an Interoperable and Machine-Readable Data Processing Catalogue Based on GDPR,’’ Information, vol. 13, no. 5, p. 244, May 2022.
+10. CNIL, ‘‘CNIL Privacy Impact Assessment,’’ 2024.
+11. 14:00-17:00, ‘‘ISO/IEC 29134:2023,’’ https://www.iso.org/standard/86012.html, 2023.
+12. D. Golpayegani, H. J. Pandit, and D. Lewis, ‘‘To Be High-Risk, or Not To Be—Semantic Specifications and Implications of the AI Act’s High-Risk AI Applications and Harmonised Standards,’’ in 2023 ACM Conference on Fairness, Accountability, and Transparency. Chicago IL USA: ACM, Jun. 2023, pp. 905–915.
+13. H. J. Pandit, ‘‘A Semantic Specification for Data Protection Impact Assessments (DPIA),’’ Jun. 2022.
+14. A. Mantelero, ‘‘The Fundamental Rights Impact Assessment (FRIA) in the AI Act: Roots, legal obligations and key elements for a model template,’’ Computer Law & Security Review, vol. 54, p. 106020, Sep. 2024.
+15. A. Calvi and D. Kotzinos, ‘‘Enhancing AI fairness through impact assessment in the European Union: A legal and computer science perspective,’’ in 2023 ACM Conference on Fairness, Accountability, and Transparency. Chicago IL USA: ACM, Jun. 2023, pp. 1229–1245.
+16. ‘‘CNIL AI how to sheets,’’ 2024.
+17. J. Gerards, M. T. Schaefer, A. Vankan, and I. Muis, ‘‘Fundamental Rights and Algorithms Impact Assessment. 1–99.’’ 2022.
+18. A. De Croo and P. De Backer, ‘‘AI 4 Belgium,’’ 2024.
+19. AIPD, ‘‘AIPD guides (data protection impact assessment).’’
+20. ‘‘Austria processing requiring DPIA,’’ 2024.
+21. ‘‘Belgian DPIA guidelines: Adoption de la liste des catégories de traitement devant faire l’objet d’une analyse d’impact relative à la protection des données conformément à l’article 35.4 du Règlement Général sur la Protection des données (SECR-AR-2019-001),’’ Jan. 2019.
+22. ‘‘Croatia processing requiring DPIA,’’ 2024.
+23. ‘‘Cyprus processing requiring DPIA,’’ 2024.
+24. ‘‘Czech DPIA guide,’’ 2024.
+25. ‘‘Denmark DPIA Guides,’’ 2024.
+26. ‘‘Estonia DPIA guide,’’ 2024.
+27. ‘‘Finland DPIA guides (website),’’ 2024.
+28. ‘‘France DPIA required,’’ 2024.
+29. ‘‘French DPIA guidelines Liste des types d’opérations de traitement pour lesquelles une analyse d’impact relative à la protection des données est requise,’’ 2024.
+30. ‘‘German DPIA guidelines List of processing activities for which a DPIA is to be carried out,’’ Oct. 2018.
+31. ‘‘Greece processing requiring DPIA,’’ 2024.
+32. ‘‘Hungary processing requiring DPIA,’’ 2024.
+33. ‘‘Iceland processing requiring DPIA,’’ 2024.
+34. ‘‘Irish DPA list of processing requiring DPIA,’’ 2024.
+35. ‘‘Italian DPIA guidelines,’’ 2016.
+36. ‘‘Latvia DPIA guide,’’ 2024.
+37. ‘‘Lithuania processing requiring DPIA,’’ 2024.
+38. ‘‘Liechtenstein DPIA processing required,’’ 2024.
+39. L. DPA, ‘‘Luxembourg DPIA required list,’’ Tech. Rep., 2024.
+40. ‘‘Malta processing requiring DPIA,’’ 2024.
+41. ‘‘Netherlands DPIA guide,’’ 2024.
+42. ‘‘Norweigan DPIA guide,’’ 2024.
+43. ‘‘Poland DPIA guide,’’ 2024.
+44. ‘‘Poland DPIA instructions,’’ 2024.
+45. ‘‘Poland processing requiring DPIA,’’ 2024.
+46. ‘‘Portugal processing requiring DPIA,’’ 2024.
+47. ‘‘Romania processing requiring DPIA,’’ 2024.
+48. ‘‘Slovakia processing requiring DPIA,’’ 2024.
+49. ‘‘Slovenia DPIA template,’’ 2024.
+50. AIPD, ‘‘Spain DPIA required,’’ Tech. Rep., 2024.
+51. ‘‘Sweden processing requiring DPIA,’’ 2024.
+52. E. Commission, ‘‘eTransaltion,’’ 2024.
+53. A. Mantelero, ‘‘The Ai Act’s Fundamental Rights Impact Assessment,’’ 2024.
+54. J. Naves and P. Rijcken, ‘‘EU model contractual AI clauses to pilot in procurements of AI,’’ Sep. 2023.
+55. M. Castelli and L. C. Moreau, Ph.D., ‘‘The Cycle of Trust and Responsibility in Outsourced AI,’’ in Proceedings of the 2nd Workshop on Trustworthy Natural Language Processing (TrustNLP 2022). Seattle, U.S.A.: Association for Computational Linguistics, 2022, pp. 43–48.
