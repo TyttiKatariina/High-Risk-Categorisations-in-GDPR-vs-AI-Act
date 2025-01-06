@@ -1,7 +1,7 @@
 # High Risk Categorisations in GDPR vs AI Act: Overlaps and Implications
 
-Date: pending publication
-Publication: pending
+Date: pending publication <br>
+Publication: pending <br>
 Authors: Tytti Rintamäki, Delaram Golpayegani, Dave Lewis, Edoardo Celeste, Harshvardhan Pandit
 
 ## Table of Contents
