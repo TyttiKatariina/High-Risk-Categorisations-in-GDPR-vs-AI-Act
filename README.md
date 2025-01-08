@@ -3635,6 +3635,7 @@ A snapshot of what the table looks like behind the link is displayed below, with
 <div> 
    <h2> Snipit of table describing the applicability of GDPR's DPIA on High-Risk Annex III <h2/>
 </div>   
+      
 <table>
     <tr>
         <th>AI Act Annex III Clause</th>
