@@ -3560,6 +3560,228 @@ Through this exercise, we compiled a list of 94 distinct activities that represe
         <td>1</td>
     </tr>
     <tr>
+        <th>C95</th>
+        <td>Processing of location data, including matching or combining datasets</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Y</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <th>C96</th>
+        <td>Processing of location data concerning vulnerable data subjects</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Y</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>1</td>
+    </tr>
+     <tr>
+        <th>C97</th>
+        <td>Processing of location data using systematic monitoring of data subjects</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Y</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>1</td>
+    </tr>
+     <tr>
+        <th>C98</th>
+        <td>Processing of location data aimed at automated-decision making with legal or similar significant effect</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Y</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>1</td>
+    </tr>
+     <tr>
+        <th>C99</th>
+        <td>Processing of location data when it prevents data subjects from exercising a right or using a service or a contracts</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Y</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>1</td>
+    </tr>
+     <tr>
+        <th>100</th>
+        <td>Processing of personal data in whistleblower systems</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Y</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>1</td>
+    </tr>
+    <tr>
         <th></th>
         <td>Conditions Applicable (total = )</td>
         <td>10</td>
@@ -3572,7 +3794,7 @@ Through this exercise, we compiled a list of 94 distinct activities that represe
         <td>23</td>
         <td>20</td>
         <td>18</td>
-        <td>13</td>
+        <td>24</td>
         <td>30</td>
         <td>26</td>
         <td>30</td>
@@ -3599,7 +3821,7 @@ Through this exercise, we compiled a list of 94 distinct activities that represe
 </table>
 </body>
     
-Through this exercise, we compiled a list of 94 distinct activities that represents all DPIA required conditions from the GDPR, EDPB’s, and member states’ guidelines.
+Through this exercise, we compiled a list of 100 distinct activities that represent all DPIA required conditions from the GDPR, EDPB’s, and member states’ guidelines.
 
 Using this table of all the processing activities that are considered high-risk and require conducting a DPIA, we compiled a bar chart that shows the number of processing activities requring a DPIA by country. We also included how many activities were mentioned in GDPR and EDPB. 
 
@@ -3612,6 +3834,8 @@ To show the variance between the member states and EEA countries, we compiled a 
 </div>
 
 Poland has the most conditions for a DPIA (n=31). France and Greece have the second most conditions (n=30) and Finland the least (n=13). Of note, the bulk of DPIA required conditions in our list come from country specific lists (82 of 94). In these, stable activities include (large scale) Processing of communication and location data (22 countries), (large-scale) processing of employee activities (19 countries), and processing with legal effects such as ac cess to or exclusion of services (12 countries). The use of AI required a DPIA in Austria, Denmark, Germany, Greece, and the Czech Republic. 
+
+Another visualisation of the variance in number of processing activities across the EU, is the following image of a map of the EU colour coded to show which countries have the least additions and which have the most. The gradient—from dark red, red, orange, yellow, to pale yellow—visually conveys the disparity in regulatory clarity across the EU. <span style="color:red;">Red</span> is used to show which countries have the least amount of Processing Activities listed/ least amount of additions made to the GDPR and EDPB mentioned activities. <span style="color:yellow;">Yellow</span> is used to show the countries that have the most additions. where Red signifies concern over the lack of clarification of what activities require a DPIA and Yellow signalling many additions have been made and guidance is therefor clearer on when to conduct a DPIA. 
 
 ## Annex III and High Risk Processing Activities
 
