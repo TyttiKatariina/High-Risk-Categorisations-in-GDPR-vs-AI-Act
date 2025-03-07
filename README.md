@@ -3849,7 +3849,7 @@ From this exercise, we found personal data was explicitly involved and hence GDP
 
 ## Involvement of GDPR DPIA's and High-Risk AI systems from Annex III (Expandable explanation table)
 
-The table described above which shows how applicable GDPR is to the various AI systems listed in Annex three can be viewed [here]([https://TyttiRintamaki.github.io/AnnexIIItable.html](https://tyttikatariina.github.io/High-Risk-Categorisations-in-GDPR-vs-AI-Act/Annex-III-index.html)). It is an interactive table that by clicking on the first colomn ex. "1a. Biometrics" an explanation will appear that describes what data we found to require a DPIA either according to GDPR or according to individual member state data protection authorities. 
+The table described above which shows how applicable GDPR is to the various AI systems listed in Annex three can be viewed [here]([https://TyttiKatariina.github.io/AnnexIIItable.html](https://tyttikatariina.github.io/High-Risk-Categorisations-in-GDPR-vs-AI-Act/Annex-III-index.html)). It is an interactive table that by clicking on the first colomn ex. "1a. Biometrics" an explanation will appear that describes what data we found to require a DPIA either according to GDPR or according to individual member state data protection authorities. 
 
 A snapshot of what the table looks like behind the link is displayed below, without the interactive explanations. 
 
