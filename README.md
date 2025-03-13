@@ -4052,7 +4052,7 @@ Using this table of all the processing activities that are considered high-risk 
 To show the variance between the member states and EEA countries, we compiled a bar chart of each country and the number of processing activities they consider high-risk and require conducting a DPIA. We included how many activities GDPR and EDPB list to show how much guidance there is in terms of the activities and allow for a comparison of how many more activities individual countries have added to their lists. Below is the summarised representation of the variance in the amount of DPIA required conditions across the mentioned sources. Each member state is referred to by its ISO 3166-2 code, for example AT for Austria or FR for France. 
 
 <div align="center">
-<img width="631" alt="image" src="https://github.com/TyttiKatariina/High-Risk-Categorisations-in-GDPR-vs-AI-Act/blob/main/NumberofProcessingActivitiesRequiringaDPIA.jpg">
+<img width="631" alt="image" src="https://github.com/TyttiKatariina/High-Risk-Categorisations-in-GDPR-vs-AI-Act/blob/main/NumberofProcessingActivitiesRequiringaDPIA.jpg?raw=true">
 </div>
 
 Poland has the most conditions for a DPIA (n=31). France and Greece have the second most conditions (n=30) and Finland the least (n=13). Of note, the bulk of DPIA required conditions in our list come from country specific lists ((93 out of 106). In these, stable activities include (large scale) Processing of communication and location data (22 countries), (large-scale) processing of employee activities (19 countries), and processing with legal effects such as access to or exclusion of services (12 countries). The use of AI required a DPIA in Austria, Denmark, Germany, Greece, and the Czech Republic. 
@@ -4060,7 +4060,7 @@ Poland has the most conditions for a DPIA (n=31). France and Greece have the sec
 Another visualisation of the variance in number of processing activities across the EU, is the following image of a map of the EU colour coded to show which countries have the least additions and which have the most. The gradient—from dark red, red, orange, yellow, to pale yellow—visually conveys the disparity in regulatory clarity across the EU. Red is used to show which countries have the least amount of Processing Activities listed/ least amount of additions made to the GDPR and EDPB mentioned activities. Yellow is used to show the countries that have the most additions. where Red signifies concern over the lack of clarification of what activities require a DPIA and Yellow signalling many additions have been made and guidance is therefore clearer on when to conduct a DPIA. 
 
 <div align="center">
-<img width="631" alt="image" src="https://github.com/TyttiKatariina/High-Risk-Categorisations-in-GDPR-vs-AI-Act/blob/main/ISO_EU_DPIA_MAP.png">
+<img width="631" alt="image" src="https://github.com/TyttiKatariina/High-Risk-Categorisations-in-GDPR-vs-AI-Act/blob/main/ISO_EU_DPIA_MAP.png?raw=true">
 </div> 
 
 
