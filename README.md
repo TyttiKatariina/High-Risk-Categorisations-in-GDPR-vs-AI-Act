@@ -4060,7 +4060,7 @@ Poland has the most conditions for a DPIA (n=31). France and Greece have the sec
 Another visualisation of the variance in number of processing activities across the EU, is the following image of a map of the EU colour coded to show which countries have the least additions and which have the most. The gradient—from dark red, red, orange, yellow, to pale yellow—visually conveys the disparity in regulatory clarity across the EU. Red is used to show which countries have the least amount of Processing Activities listed/ least amount of additions made to the GDPR and EDPB mentioned activities. Yellow is used to show the countries that have the most additions. where Red signifies concern over the lack of clarification of what activities require a DPIA and Yellow signalling many additions have been made and guidance is therefore clearer on when to conduct a DPIA. 
 
 <div align="center">
-<img width="631" alt="image" src="https://github.com/TyttiKatariina/High-Risk-Categorisations-in-GDPR-vs-AI-Act/blob/main/ISO_EU_DPIA_MAP.png?raw=true">
+<img width="631" alt="image" src="ISO_EU_DPIA_MAP.png?raw=true">
 </div> 
 
 
