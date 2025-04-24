@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EU/EEA Country Heatmap</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        body { max-width: 800px; margin: auto; }
+        #map { height: 75vh; width: 75vw; max-height: 800px; max-width: 800px; margin: auto; }
+    </style>
+</head>
+<body>
+    <h1>EU/EEA Country Heatmap</h1>
+    <div id="map"></div>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://unpkg.com/topojson-client@3"></script>
+    <script>
+        const data = [
+            { country: 'Austria', value: 61},
+            { country: 'Belgium', value: 7},
+            { country: 'Bulgaria', value: 4},
+            { country: 'Cyprus', value: 33},
+            { country: 'Czech Republic', value: 61},
+            { country: 'Germany', value: 61},
+            { country: 'Denmark', value: 61},
+            { country: 'Estonia', value: 21},
+            { country: 'Spain', value: 29},
+            { country: 'Finland', value: 27},
+            { country: 'France', value: 19},
+            { country: 'Greece', value: 61},
+            { country: 'Croatia', value: 11},
+            { country: 'Hungary', value: 35},
+            { country: 'Ireland', value: 29},
+            { country: 'Iceland', value: 20},
+            { country: 'Italy', value: 27},
+            { country: 'Liechtenstein', value: 33},
+            { country: 'Lithuania', value: 20},
+            { country: 'Luxembourg', value: 21},
+            { country: 'Latvia', value: 38},
+            { country: 'Malta', value: 28},
+            { country: 'Netherlands', value: 32},
+            { country: 'Norway', value: 25},
+            { country: 'Poland', value: 35},
+            { country: 'Portugal', value: 18},
+            { country: 'Romania', value: 22},
+            { country: 'Sweden', value: 24},
+            { country: 'Slovenia', value: 28},
+            { country: 'Slovakia', value: 20}
+        ];
+
+        const countryValues = {};
+        data.forEach(d => {
+            countryValues[d.country] = d.value;
+        });
+
+        const map = L.map('map').setView([51.1657, 10.4515], 4);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+
+        d3.json('https://raw.githubusercontent.com/leakyMirror/map-of-europe/master/GeoJSON/europe.geojson').then(geoData => {
+            L.geoJSON(geoData, {
+                style: function (feature) {
+                    const countryName = feature.properties.NAME;
+                    const value = countryValues[countryName] || 0;
+                    const color = getColor(value);
+                    return {
+                        fillColor: color,
+                        weight: 1,
+                        opacity: 1,
+                        color: 'white',
+                        fillOpacity: 0.7
+                    };
+                }
+            }).addTo(map);
+        });
+
+        function getColor(value) {
+            return value > 50 ? '#FD8D3C' :
+                   value > 40 ? '#FC4E2A' :
+                   value > 30 ? '#E31A1C' :
+                   value > 10 ? '#BD0026' :
+                   value > 0  ? '#800026' :
+                                '#FFFFFF';
+        }
+    </script>
+</body>
+</html>
