@@ -11,10 +11,11 @@ Authors: Tytti Rintamäki, Delaram Golpayegani, Dave Lewis, Edoardo Celeste, Har
 
 3. [High Risk Processing Activities requiring a Data Protection Impact Assessment](#High-Risk-Processing-Activities-requiring-a-Data-Protection-Impact-Assessment)
    1. [Processing Activities Requiring a DPIA](#Processing-Activities-Requiring-a-DPIA)
+
+4. [Processing Activities NOT requiring a Data Protection Impact Assessment](#Processing-Activities-not-requiring-a-Data-Protection-Impact-Assessment)
+5. [Annex III and High Risk Processing Activities](#Annex-III-and-High-Risk-Processing-Activities)
    
-4. [Annex III and High Risk Processing Activities](#Annex-III-and-High-Risk-Processing-Activities)
-   
-5. [References](#references)
+6. [References](#references)
 
 ## Abstract: 
 Under the EU General Data Protection Regulation (GDPR), the processing of personal data with ‘‘new technologies’’, including Artificial Intelligence (AI), requires conducting a Data Protection Impact Assessment (DPIA) to evaluate potential risks to the rights and freedoms of individuals. In addition to identifying categories of processing that require a DPIA, the GDPR empowers national Data Protection Authorities (DPAs) to define additional categories where a DPIA is necessary. The recently adopted AI Act classifies AI technologies according to their level of risk to health, safety, and fundamental rights. For certain systems in Annex III of the EU AI Act, the AI Act requires a Fundamental Rights Impact Assessment (FRIA) to be conducted, which represents an additional requirement for AI systems already subject to a DPIA under the GDPR. This context thus raises the question of how these two regulations work together and how their enforcement can be harmonised. This paper analyses DPIA requirements collected from all the 27 EU and 3 EEA countries and compares them with the FRIA requirements defined in the AI Act. We show there are overlaps and divergences across national requirements to conduct impact assessments for the use of AI. Based on this, we argue for the need to harmonise the DPIA requirements across the EU/ EEA for an effective implementation of the GDPR, to improve the alignment with the AI Act, and to facilitate the sharing of risk assessment information earlier in the AI value chain to guide responsible innovation.
@@ -4362,7 +4363,7 @@ Another visualisation of the variance in number of processing activities across 
 <img width="631" alt="image" src="ISO_EU_DPIA_MAP.png?raw=true">
 </div> 
 
-## Number of Processing Activities NOT requiring a DPIA
+## Processing Activities NOT requiring a DPIA
 
 To identify the conditions where a DPIA is not required, the "blacklists" of processing activities not requiring a DPIA published by DPAs from the member states were analysed. These were only available for 8 countries (as of April 2026). Similarly to the earlier DPIA required conditions, when the guidelines were not in English, we translated the documents using the eTranslation service provided by the European Commission. 
 
