@@ -1,7 +1,7 @@
 # High Risk Categorisations in GDPR vs AI Act: Overlaps and Implications
 
 Date: Available online 22 April 2026. Computer Law & Security Review: The International Journal of Technology Law and Practice 61 (2026) 106317.
-Publication: https://doi.org/10.1016/j.clsr.2026.106317 
+Publication:  <a href="https://doi.org/10.1016/j.clsr.2026.106317">Impact assessment requirements in the GDPR vs the AI Act: Overlaps, divergence, and implications</a> 
 Authors: Tytti Rintamäki, Delaram Golpayegani, Dave Lewis, Edoardo Celeste, Harshvardhan Pandit
 
 ## Table of Contents
@@ -4003,6 +4003,302 @@ Through this exercise, we compiled a list of 94 distinct activities that represe
         <td></td>
         <td>1</td>
     </tr>
+      <tr>
+        <th>107</th>
+        <td> </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Y</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>1</td>
+    </tr>
+         <tr>
+        <th>108</th>
+        <td> </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Y</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>1</td>
+    </tr>
+         <tr>
+        <th>109</th>
+        <td> </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Y</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>1</td>
+    </tr>
+         <tr>
+        <th>110</th>
+        <td> </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Y</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>1</td>
+    </tr>
+         <tr>
+        <th>111</th>
+        <td> </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Y</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>1</td>
+    </tr>
+         <tr>
+        <th>112</th>
+        <td> </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Y</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>1</td>
+    </tr>
+         <tr>
+        <th>113</th>
+        <td> </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Y</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>1</td>
+    </tr>
+         <tr>
+        <th>114</th>
+        <td> </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Y</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>1</td>
+    </tr>
     <tr>
         <th></th>
         <td>Conditions Applicable (total = )</td>
@@ -4012,7 +4308,7 @@ Through this exercise, we compiled a list of 94 distinct activities that represe
         <td>21</td>
         <td>17</td>
         <td>24</td>
-        <td>29</td>
+        <td>35</td>
         <td>23</td>
         <td>20</td>
         <td>24</td>
@@ -4043,7 +4339,7 @@ Through this exercise, we compiled a list of 94 distinct activities that represe
 </table>
 </body>
     
-Through this exercise, we compiled a list of 100 distinct activities that represent all DPIA required conditions from the GDPR, EDPB’s, and member states’ guidelines.
+Through this exercise, we compiled a list of 114 distinct activities that represent all DPIA required conditions from the GDPR, EDPB’s, and member states’ guidelines.
 
 Using this table of all the processing activities that are considered high-risk and require conducting a DPIA, we compiled a bar chart that shows the number of processing activities requring a DPIA by country. We also included how many activities were mentioned in GDPR and EDPB. 
 
